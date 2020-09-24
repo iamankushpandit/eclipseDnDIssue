@@ -1,0 +1,15 @@
+C:\Users\ap031193\source\repos\HelloWorldCSharpApplication\HelloWorldCSharpApplication\bin\Debug\HelloWorldCSharpApplication.exe.config
+C:\Users\ap031193\source\repos\HelloWorldCSharpApplication\HelloWorldCSharpApplication\bin\Debug\HelloWorldCSharpApplication.exe
+C:\Users\ap031193\source\repos\HelloWorldCSharpApplication\HelloWorldCSharpApplication\bin\Debug\HelloWorldCSharpApplication.pdb
+C:\Users\ap031193\source\repos\HelloWorldCSharpApplication\HelloWorldCSharpApplication\obj\Debug\HelloWorldCSharpApplication.csprojAssemblyReference.cache
+C:\Users\ap031193\source\repos\HelloWorldCSharpApplication\HelloWorldCSharpApplication\obj\Debug\MainWindow.g.cs
+C:\Users\ap031193\source\repos\HelloWorldCSharpApplication\HelloWorldCSharpApplication\obj\Debug\App.g.cs
+C:\Users\ap031193\source\repos\HelloWorldCSharpApplication\HelloWorldCSharpApplication\obj\Debug\HelloWorldCSharpApplication_MarkupCompile.cache
+C:\Users\ap031193\source\repos\HelloWorldCSharpApplication\HelloWorldCSharpApplication\obj\Debug\HelloWorldCSharpApplication_MarkupCompile.lref
+C:\Users\ap031193\source\repos\HelloWorldCSharpApplication\HelloWorldCSharpApplication\obj\Debug\MainWindow.baml
+C:\Users\ap031193\source\repos\HelloWorldCSharpApplication\HelloWorldCSharpApplication\obj\Debug\HelloWorldCSharpApplication.g.resources
+C:\Users\ap031193\source\repos\HelloWorldCSharpApplication\HelloWorldCSharpApplication\obj\Debug\HelloWorldCSharpApplication.Properties.Resources.resources
+C:\Users\ap031193\source\repos\HelloWorldCSharpApplication\HelloWorldCSharpApplication\obj\Debug\HelloWorldCSharpApplication.csproj.GenerateResource.cache
+C:\Users\ap031193\source\repos\HelloWorldCSharpApplication\HelloWorldCSharpApplication\obj\Debug\HelloWorldCSharpApplication.csproj.CoreCompileInputs.cache
+C:\Users\ap031193\source\repos\HelloWorldCSharpApplication\HelloWorldCSharpApplication\obj\Debug\HelloWorldCSharpApplication.exe
+C:\Users\ap031193\source\repos\HelloWorldCSharpApplication\HelloWorldCSharpApplication\obj\Debug\HelloWorldCSharpApplication.pdb
