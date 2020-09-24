@@ -27,4 +27,4 @@ To develop a simple SWT application with a DragSource and develop a simple CShar
 2. Drag and drop the item from the SWT application to the CSharp application and repeat as many times as possible and intermittenly but frequently a crash is observed.
 
 ## Possible Cause behind the crash
-Changes introduced to DragSource in SWT 4.13
+Changes introduced to DragSource in SWT 4.13 for Bug 549643(https://bugs.eclipse.org/bugs/show_bug.cgi?id=549643) As can be seen when the DragSource source code is compared between 4.12 and 4.13 SDK.
