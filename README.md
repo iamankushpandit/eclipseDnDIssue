@@ -26,8 +26,8 @@ To develop a simple SWT application with a DragSource and develop a simple CShar
   b. The CSharp application that contains a text area where the item from the SWT application can be dropped.
 2. Drag and drop the item from the SWT application to the CSharp application and repeat as many times as possible and intermittenly but frequently a crash is observed.
 
-## Possible Cause behind the crash
-Changes introduced to DragSource in SWT 4.13 for [Bug 549643](https://bugs.eclipse.org/bugs/show_bug.cgi?id=549643). This can be seen when the DragSource source code is compared between 4.12 and 4.13 SDK.
+## Cause for the crash
+Changes introduced to DragSource in SWT 4.13 for [Bug 549643](https://bugs.eclipse.org/bugs/show_bug.cgi?id=549643). This can be seen when the DragSource source code is compared between 4.12 and 4.13 SDK. Confirmed by [Eclipse foundation](https://bugs.eclipse.org/bugs/show_bug.cgi?id=567422#c6).
 
 ## Bug submission, analysis and actions
 We have logged a bug request through Eclipse Platform's bugzilla here [Bug-567422](https://bugs.eclipse.org/bugs/show_bug.cgi?id=567422). Please follow the bug for analysis and other information and observations provided. To follow the bug(Eclipse account needed) by click on CC List check box on the top right followed by clicking the Save Changes button on the top right header section.
