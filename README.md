@@ -1,5 +1,5 @@
 # Eclipse 4.13 Drag and Drop Issue
-Repo for provinding examples for the drag and drop issue between Java and CSharp based applications introduced in Eclipse 4.13 SDK's SWT libraries.
+Repo for providing explanation, recreation steps and examples for the drag and drop issue between Java and CSharp based applications introduced in Eclipse 4.13 SDK's SWT libraries.
 
 ## Introduction
 We have the responsibility to develop a workflow where content is dragged and dropped from a SWT based application to an application developed in CSharp(WPF application based on .NET Framework 4.7.2).
