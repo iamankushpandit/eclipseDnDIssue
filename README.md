@@ -33,4 +33,6 @@ Changes introduced to DragSource in SWT 4.13 for [Bug 549643](https://bugs.eclip
 We have logged a bug request through Eclipse Platform's bugzilla here [Bug-567422](https://bugs.eclipse.org/bugs/show_bug.cgi?id=567422). Please follow the bug for analysis and other information and observations provided. To follow the bug(Eclipse account needed) by click on CC List check box on the top right followed by clicking the Save Changes button on the top right header section.
 
 ## Resolution
+The aggressive release of all COM objects after the drag/drop operation is done can be problematic if the drop target keeps a reference to one of the COM objects for later use. When the target later tries to release (or access) the already disposed COM object a crash from invalid memory access is likely. Instead if should trust that the target will eventually release the references it still holds. For the case that the target will request the data again after DND is finished the last requested data is cached. Note: sending a DragSetData event before DragStart or after DragEnd is considered a bug.
+
 [Bug-567422](https://bugs.eclipse.org/bugs/show_bug.cgi?id=567422) is now resolved and will be available with Eclipse 4.18 SDK.
