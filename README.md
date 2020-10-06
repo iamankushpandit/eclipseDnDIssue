@@ -6,9 +6,6 @@ We have the responsibility to develop a workflow where content is dragged and dr
 
 Recently we were upgrading from Eclipse 4.7.3 to Eclipse 4.16 where we ran into a drag and drop issue between the two application. Intermittenly but frequently when dragging an object(string) from the SWT application to the CSharp application, SWT application crashes.
 
-## Recreation
-![Recreation Video](./EclipseDragAndDrop-4.13-Issue.gif)
-
 ## Experiment
 To develop a simple SWT application with a DragSource and develop a simple CSharp application with a Text field(with allow drop property set to true) where the objects from the SWT application can be dropped.
 
@@ -28,6 +25,9 @@ To develop a simple SWT application with a DragSource and develop a simple CShar
   a. The SWT application with a simple tree and an item that can be dragged and dropped.
   b. The CSharp application that contains a text area where the item from the SWT application can be dropped.
 2. Drag and drop the item from the SWT application to the CSharp application and repeat as many times as possible and intermittenly but frequently a crash is observed.
+
+## Recreation
+![Recreation Video](./EclipseDragAndDrop-4.13-Issue.gif)
 
 ## Cause for the crash
 Changes introduced to DragSource in SWT 4.13 for [Bug 549643](https://bugs.eclipse.org/bugs/show_bug.cgi?id=549643). This can be seen when the DragSource source code is compared between 4.12 and 4.13 SDK. Confirmed by [Eclipse foundation](https://bugs.eclipse.org/bugs/show_bug.cgi?id=567422#c6).
