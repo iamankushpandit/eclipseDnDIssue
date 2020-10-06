@@ -38,4 +38,6 @@ We have logged a bug request through Eclipse Platform's bugzilla here [Bug-56742
 ## Resolution
 The aggressive release of all COM objects after the drag/drop operation is done can be problematic if the drop target keeps a reference to one of the COM objects for later use. When the target later tries to release (or access) the already disposed COM object a crash from invalid memory access is likely. Instead if should trust that the target will eventually release the references it still holds. For the case that the target will request the data again after DND is finished the last requested data is cached. Note: sending a DragSetData event before DragStart or after DragEnd is considered a bug.
 
+Changes for the bug fix are [here.](https://git.eclipse.org/c/platform/eclipse.platform.swt.git/commit/?id=774e87313a722b36d2411c587111e00014f54074)
+
 [Bug-567422](https://bugs.eclipse.org/bugs/show_bug.cgi?id=567422) is now resolved and will be available with Eclipse 4.18 SDK.
