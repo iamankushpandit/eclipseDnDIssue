@@ -10,8 +10,8 @@ Recently we were upgrading from Eclipse 4.7.3 to Eclipse 4.16 where we ran into 
 To develop a simple SWT application with a DragSource and develop a simple CSharp application with a Text field(with allow drop property set to true) where the objects from the SWT application can be dropped.
 
 ## Setup
-1. Import the DnDDemo-SWT-4.12 and DnDDemo-SWT-4.13 in to an eclipse workspace. For this experiment Eclipse IDE for RCP and RAP Developers (includes Incubating components)Version: 2020-06 (4.16.0) Build id: 20200615-1200 was used.
-2. Import the HelloWorldCSharpApplication application on Visual Studio. For this experiment Visual Studio 2019 was used. This is just for the reference as the compiled version of the executable is already included in the DnDDemo-SWT-4.12 and DnDDemo-SWT-4.13 projects.
+1. Import the [DnDDemo-SWT-4.12](https://github.com/iamankushpandit/eclipseDnDIssue/tree/master/DnDDemo-SWT-4.12) and [DnDDemo-SWT-4.13](https://github.com/iamankushpandit/eclipseDnDIssue/tree/master/DnDDemo-SWT-4.13) in to an eclipse workspace. For this experiment Eclipse IDE for RCP and RAP Developers (includes Incubating components)Version: 2020-06 (4.16.0) Build id: 20200615-1200 was used.
+2. Import the [HelloWorldCSharpApplication](https://github.com/iamankushpandit/eclipseDnDIssue/tree/master/HelloWorldCSharpApplication) application on Visual Studio. For this experiment Visual Studio 2019 was used. This is just for the reference as the compiled version of the executable is already included in the DnDDemo-SWT-4.12 and DnDDemo-SWT-4.13 projects.
 3. The code on DnDDemo-SWT-4.12 and DnDDemo-SWT-4.13 is exactly the same but the refereced SWT library is different.
 
 ### Workflow 1 (Normal desired workflow)
@@ -27,10 +27,10 @@ To develop a simple SWT application with a DragSource and develop a simple CShar
 2. Drag and drop the item from the SWT application to the CSharp application and repeat as many times as possible and intermittenly but frequently a crash is observed.
 
 ## Possible Cause behind the crash
-Changes introduced to DragSource in SWT 4.13 for Bug 549643(https://bugs.eclipse.org/bugs/show_bug.cgi?id=549643). This can be seen when the DragSource source code is compared between 4.12 and 4.13 SDK.
+Changes introduced to DragSource in SWT 4.13 for [Bug 549643](https://bugs.eclipse.org/bugs/show_bug.cgi?id=549643). This can be seen when the DragSource source code is compared between 4.12 and 4.13 SDK.
 
 ## Bug submission, analysis and actions
-We have logged a bug request through Eclipse Platform's bugzilla here https://bugs.eclipse.org/bugs/show_bug.cgi?id=567422. Please follow the bug for analysis and other information and observations provided. To follow the bug(Eclipse account needed) by click on CC List check box on the top right followed by clicking the Save Changes button on the top right header section.
+We have logged a bug request through Eclipse Platform's bugzilla here [Bug-567422](https://bugs.eclipse.org/bugs/show_bug.cgi?id=567422). Please follow the bug for analysis and other information and observations provided. To follow the bug(Eclipse account needed) by click on CC List check box on the top right followed by clicking the Save Changes button on the top right header section.
 
 ## Resolution
-https://bugs.eclipse.org/bugs/show_bug.cgi?id=567422 is now resolved and will be available with Eclipse 4.18 SDK.
+[Bug-567422](https://bugs.eclipse.org/bugs/show_bug.cgi?id=567422) is now resolved and will be available with Eclipse 4.18 SDK.
