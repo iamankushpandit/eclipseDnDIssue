@@ -41,3 +41,6 @@ The aggressive release of all COM objects after the drag/drop operation is done 
 Changes for the bug fix are [here.](https://git.eclipse.org/c/platform/eclipse.platform.swt.git/commit/?id=774e87313a722b36d2411c587111e00014f54074)
 
 [Bug-567422](https://bugs.eclipse.org/bugs/show_bug.cgi?id=567422) is now resolved and will be available with Eclipse 4.18 SDK.
+
+## Appreciation
+![Appreciation By Eclipse Community](./Drag-and-Drop-to-a-CSharp-application-causes-crash.png)
